@@ -1,0 +1,32 @@
+header {
+    background-color: rgb(60, 60, 175);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+header a  {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+nav ul a:hover {
+    border-bottom: 0.2px solid white;
+}
+
+nav ul li {
+	border-bottom: 2px solid transparent;
+	padding-bottom: 0.5em;
+	transition: all 200ms ease;
+	cursor: pointer;
+}
+
+.icon-image {
+    width : 30px;
+    height : 30px;
+}
